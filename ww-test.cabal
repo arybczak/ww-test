@@ -1,0 +1,15 @@
+cabal-version:      2.4
+name:               ww-test
+version:            1.0
+
+library
+
+    build-depends: base < 5
+                 , effectful-core
+
+    ghc-options: -ddump-simpl -dsuppress-all -dno-suppress-type-signatures
+
+    hs-source-dirs:   src
+    default-language: Haskell2010
+
+    exposed-modules: Test
