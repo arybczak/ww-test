@@ -5,6 +5,7 @@
 {-# LANGUAGE MagicHash #-}
 {-# LANGUAGE TypeFamilies #-}
 {-# LANGUAGE TypeOperators #-}
+{-# OPTIONS_GHC -ddump-simpl #-}
 module Test where
 
 import GHC.Exts
